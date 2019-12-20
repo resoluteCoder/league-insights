@@ -1,0 +1,19 @@
+.champion-ability-container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    font-weight:lighter;
+    line-height: 1.5;
+}
+
+.lore-container {
+    width:600px;
+    margin-bottom: 50px;
+    font-weight:lighter;
+    line-height: 1.5;
+    text-align: center;
+    padding:10px;
+    border-top: 2px solid $secondary-highlight-grey;
+    border-bottom: 2px solid $secondary-highlight-grey;
+}

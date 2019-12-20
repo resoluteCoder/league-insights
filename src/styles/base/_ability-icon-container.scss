@@ -1,0 +1,22 @@
+.ability-icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+.ability-icon-container__icon {
+    border-radius: 100%;
+    border: 2px solid $secondary-highlight-grey;
+}
+
+.ability-icon-container__icon:hover {
+    border-color: $primary-highlight-wheat;
+    cursor: pointer;
+}
+
+.ability-icon-container__text {
+    text-align: center;
+    color: white;
+    
+}
+.ability-icon-active {
+    border-color: $primary-highlight-wheat;
+}

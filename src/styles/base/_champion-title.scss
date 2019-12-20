@@ -1,0 +1,22 @@
+.champion-title {
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+}
+
+.champion-title__name {
+    font-weight: 300;
+    margin-bottom:0;
+}
+.champion-title__subcontainer {
+    display:flex;
+    justify-content: center;
+}
+.champion-title__subcontainer .colored-dashes {
+    transform: translateY(10px) rotate(90deg);
+}
+.champion-title__subtitle {
+    margin-top:10px;
+    font-weight: 300;
+    font-size: 15px;
+}

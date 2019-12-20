@@ -1,0 +1,81 @@
+@media (max-width: 1225px) {
+    div.splash-modal__container {
+        width: auto;
+    }
+}
+
+.splash-modal__container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top:100px;
+}
+
+.splash-modal__arrows {
+    height:100%;
+    width:100%;
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.splash-modal__arrows div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.splash-modal__arrows div:hover{
+    cursor: pointer;
+    background:rgba($secondary-highlight-grey,0.2);
+}
+
+.splash-modal:focus {
+    outline: none;
+}
+.splash-modal__image {
+    max-width: 100%;
+}
+
+.splash-modal__open {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: $background-black;
+    border: 1px solid $secondary-highlight-grey;
+}
+
+.splash-modal__open:hover {
+    cursor: pointer;
+    border-color: $primary-highlight-wheat;
+}
+
+.splash-modal__close {
+    background:none;
+    color:white;
+    position: absolute;
+    top:10px;
+    right:10px;
+    border:none;
+}
+
+.splash-modal__open:focus {
+    outline:none;
+}
+
+.splash-modal__close:hover {
+    cursor: pointer;
+}
+
+.splash-modal__close:focus {
+    outline:none;
+}
+
+.image-container {
+    display: flex;
+    overflow: hidden;
+}

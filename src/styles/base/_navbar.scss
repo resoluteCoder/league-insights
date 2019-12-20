@@ -1,0 +1,42 @@
+.navbar {
+    background:#111;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 25px 35px 25px;
+    border-bottom: 1px solid $primary-highlight-wheat;
+    opacity: 0;
+    animation: fade-in 1.5s 2s forwards;
+}
+
+.navbar__icon {
+    position: absolute;
+    top:50px;
+    left:15px;
+    text-decoration: none;
+    color: $primary-highlight-wheat;
+}
+
+.navbar__link {
+    font-size: 10px;
+    color: $primary-highlight-wheat;
+    margin: 0 25px;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.navbar__link-active {
+    border-top: 2px solid $secondary-highlight-grey;
+    border-bottom: 2px solid $secondary-highlight-grey;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

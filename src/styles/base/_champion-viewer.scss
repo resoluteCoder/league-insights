@@ -1,0 +1,28 @@
+.viewer-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.champion-image {
+    border: $secondary-highlight-grey 2px solid;
+}
+
+.champion-image:hover {
+    border-color: $primary-highlight-wheat;
+    cursor: pointer;
+}
+
+@media (max-width: 975px) {
+    div.viewer-container {
+        flex-direction: column;
+    }
+   .viewer-container .loading-image-container,  .viewer-container .lore-container {
+       margin: 0 auto;
+       margin-bottom: 50px;
+   }
+   .viewer-container .lore-container {
+       width: auto;
+   }   
+}
